@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.global {
+  width: 800px;
+
+  background-color: blueviolet;
+  margin: 50px 150px;
+  border: 10px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: safe;
+}
+.box {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(103, 231, 231);
+  border: 5px solid black;
+  box-shadow: lightcyan;
+
+  align-items: center;
+}
+.box:hover {
+  background-color: bisque;
+  transition: 1.02s ease;
+  background-color: bisque;
+  transform: scale(1.1);
+}
