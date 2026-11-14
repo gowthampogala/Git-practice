@@ -1,0 +1,44 @@
+#wrapper {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(234, 237, 18);
+  color: black;
+  margin: 20vh auto;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: azure;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.inputdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#input {
+  margin-right: 30px;
+  padding: 15px;
+
+  text-align: center;
+  width: 200px;
+}
+button {
+  margin: 20px 150px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: solid aliceblue;
+  cursor: pointer;
+}
+#result {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}

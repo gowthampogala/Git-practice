@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Manupulation</title>
+  </head>
+  <body>
+    <div class="parent">
+      <button onclick="decrease()">-</button>
+      <h1><span id="content">add </span></h1>
+      <button onclick="increase()">+</button>
+    </div>
+    <script>
+      let count = 0;
+      let content = document.getElementById("content");
+      function increase() {
+        count++;
+        content.textContent = count;
+      }
+      function decrease() {
+        count--;
+        content.textContent = count;
+      }
+    </script>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .parent {
+        width: 150px;
+        height: 70px;
+        background-color: bisque;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+      }
+
+      h1 {
+        color: #000;
+        margin: 0;
+      }
+
+      span {
+        color: #000;
+      }
+
+      button {
+        border: none;
+        background-color: bisque;
+        cursor: pointer;
+      }
+    </style>
+  </body>
+</html>
