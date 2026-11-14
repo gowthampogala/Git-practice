@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+.navlists {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+nav {
+  margin: 5px 20px 0px 0px;
+}
